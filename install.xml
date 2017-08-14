@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="file" method="upgrade">
-	<author>Stefan Bauer</author>
-	<creationDate>June 2017</creationDate>
-	<copyright>Copyright (C) databauer / Stefan Bauer</copyright>
-	<license>License GNU General Public License version 2 or later</license>
-	<authorEmail>stefan@databauer.ch</authorEmail>
-	<authorUrl>http://www.ludothekprogramm.ch</authorUrl>
-	<version>3.5.0</version>
-	<description>Italian (it-IT) translation is for LUPO package</description>
-	
-	<languages folder="site" target="administrator/language/it-IT">
-		<language tag="it-IT">it-IT.com_lupo.ini</language>
-		<language tag="it-IT">it-IT.mod_lupo_categories.ini</language>
-		<language tag="it-IT">it-IT.mod_lupo_categories.sys.ini</language>
-		<language tag="it-IT">it-IT.mod_lupo_login.ini</language>
-		<language tag="it-IT">it-IT.mod_lupo_login.sys.ini</language>
-		<language tag="it-IT">it-IT.mod_lupo_loginlink.ini</language>
-		<language tag="it-IT">it-IT.mod_lupo_loginlink.sys.ini</language>
-	</languages>	
+    <author>Stefan Bauer</author>
+    <creationDate>August 2017</creationDate>
+    <copyright>Copyright (C) databauer / Stefan Bauer</copyright>
+    <license>License GNU General Public License version 2 or later</license>
+    <authorEmail>stefan@databauer.ch</authorEmail>
+    <authorUrl>http://www.ludothekprogramm.ch</authorUrl>
+    <version>3.5.0</version>
+    <description>Italian (it-IT) translation for LUPO package</description>
 
-	<languages folder="admin" target="language/it-IT">
-		<language tag="it-IT">it-IT.com_lupo.ini</language>
-		<language tag="it-IT">it-IT.com_lupo.sys.ini</language>
-		<language tag="it-IT">it-IT.plg_search_lupo.ini</language>
-		<language tag="it-IT">it-IT.plg_search_lupo.sys.ini</language>
-		<language tag="it-IT">it-IT.plg_search_lupogenres.ini</language>
-		<language tag="it-IT">it-IT.plg_search_lupogenres.sys.ini</language>
-	</languages>	
+	<fileset>
+		<files folder="site" target="language/it-IT">
+			<file>it-IT.com_lupo.ini</file>
+			<file>it-IT.mod_lupo_categories.ini</file>
+			<file>it-IT.mod_lupo_categories.sys.ini</file>
+			<file>it-IT.mod_lupo_login.ini</file>
+			<file>it-IT.mod_lupo_login.sys.ini</file>
+			<file>it-IT.mod_lupo_loginlink.ini</file>
+			<file>it-IT.mod_lupo_loginlink.sys.ini</file>
+		</files>
+
+		<files folder="admin" target="administrator/language/it-IT">
+			<file>it-IT.com_lupo.ini</file>
+			<file>it-IT.com_lupo.sys.ini</file>
+			<file>it-IT.plg_search_lupo.ini</file>
+			<file>it-IT.plg_search_lupo.sys.ini</file>
+			<file>it-IT.plg_search_lupogenres.ini</file>
+			<file>it-IT.plg_search_lupogenres.sys.ini</file>
+		</files>
+	</fileset>
 </extension>
